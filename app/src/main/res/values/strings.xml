@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TravPholer</string>
+    <string name="crash_toast_text">Crash Report</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="demo_min_label">Min</string>
+    <string name="demo_max_label">Max</string>
+
+    <string name="google_map_key">AIzaSyDJa-Zcngqi9azVcXPhDxOmeq4o5m2CYdA</string>
+    <string name="registration_terms">By clicking [Submit], you agree to our <a href="http://denada.hk/en/content/3-terms-and-conditions-of-use">End User License Agreement</a>,there is no tolerance for objectionable content.</string>
+
+    <string name="xlistview_header_hint_normal">Pull to Refresh</string>
+    <string name="xlistview_header_hint_ready">Pull to Refresh</string>
+    <string name="xlistview_header_hint_loading">Loading...</string>
+    <string name="xlistview_header_last_time"></string>
+    <string name="xlistview_footer_hint_normal">Load More</string>
+    <string name="xlistview_footer_hint_ready">Load More</string>
+    <string name="no_address_found">No Address Found</string>
+    <string name="address_found">Address Found</string>
+    <string name="service_not_available">Service Not Available</string>
+    <string name="invalid_lat_long_used">Invalid Lat Long Used</string>
+
+    <string name="facebook_app_id">240619226298613</string>
+
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This app requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="permission_required_toast">Location permission is required for this demo.</string>
+
+    <string name="header_hint_refresh_normal">Pull to refresh</string>
+    <string name="header_hint_refresh_ready">Release to refresh</string>
+    <string name="header_hint_refresh_loading">Refreshing&#8230;</string>
+    <string name="header_hint_refresh_time">Time：</string>
+    <string name="footer_hint_load_normal">Load more</string>
+    <string name="footer_hint_load_ready">Release to load more</string>
+</resources>

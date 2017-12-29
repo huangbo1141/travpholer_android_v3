@@ -1,0 +1,35 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <dimen name="profile_width1">148dp</dimen>
+    <dimen name="textsize_general">14dp</dimen>
+    <dimen name="textsize_big1">16dp</dimen>
+    <dimen name="textsize_big2">16dp</dimen>
+
+    <dimen name="textsize_small1">10dp</dimen>
+    <dimen name="textsize_small2">10dp</dimen>
+
+    <dimen name="layoutheight_row_general">38dp</dimen>
+
+    <dimen name="layout_margin">12dp</dimen>
+    <dimen name="radiusinput_height">34dp</dimen>
+    <dimen name="radiusinput_halfheight">17dp</dimen>
+    <dimen name="list_item_height1">70dp</dimen>
+    <dimen name="list_item_picheight1">50dp</dimen>
+
+    <dimen name="bottombar_height">60dp</dimen>
+    <dimen name="bottombar_img_height">40dp</dimen>
+    <dimen name="item_icon_size">40dp</dimen>
+    <dimen name="three_grid_unit">24dp</dimen>
+    <dimen name="one_and_a_half_grid_unit">12dp</dimen>
+
+    <dimen name="detail_backdrop_height">256dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="list_item_avatar_size">40dp</dimen>
+
+    <dimen name="custom_profile_image">60dp</dimen>
+    <dimen name="custom_profile_padding">2dp</dimen>
+</resources>

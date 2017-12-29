@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height1"
+    android:background="#000000">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginRight="60dp">
+
+        <ImageView
+            android:layout_width="@dimen/list_item_picheight1"
+            android:layout_height="@dimen/list_item_picheight1"
+            android:id="@+id/img_profile"
+            android:src="@drawable/user1" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text="I want to go on a movie date with a gentle man"
+                android:id="@+id/txtInfo1"
+                style="@style/TextThemeWhite"
+                android:layout_marginLeft="5dp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/TextThemeGray1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Highest Bid by:"
+                        android:id="@+id/textView99"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        style="@style/TextThemeWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Name"
+                        android:id="@+id/txtName"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        style="@style/TextThemeGray1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="Total Bidder:"
+                        android:id="@+id/textView101"
+                        android:layout_marginLeft="5dp" />
+
+                    <TextView
+                        style="@style/TextThemeWhite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="10"
+                        android:id="@+id/txtTotalBidCount"
+                        android:layout_marginLeft="5dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="65dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/radiusinput_height"
+            android:background="@drawable/backimage_circle_red"
+            android:id="@+id/layRightStatus">
+
+            <TextView
+                style="@style/TextThemeWhite_Big1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CLOSED"
+                android:id="@+id/txtRightStatus"
+                android:layout_centerVertical="true"
+                android:gravity="center" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

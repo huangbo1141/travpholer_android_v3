@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height1"
+    android:background="#000000">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+            android:layout_width="@dimen/list_item_picheight1"
+            android:layout_height="@dimen/list_item_picheight1"
+            android:id="@+id/img_profile"
+            android:src="@drawable/user1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name1"
+            android:id="@+id/txtName"
+            style="@style/TextThemeWhite_Big1"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:id="@+id/txtOnline"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"
+            style="@style/TextThemeWhite"
+            android:layout_centerVertical="true" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:id="@+id/imgOnline"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/backimage_circle_chatonline"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

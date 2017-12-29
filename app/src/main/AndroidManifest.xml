@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.denada.travpholer">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <permission
+        android:name="com.denada.travpholer.gcmimplementation.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.denada.travpholer.gcmimplementation.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name="com.denada.travpholer.MyApplication"
+        android:largeHeap="true"
+        >
+        <activity android:name=".Activity.SplashActivity"
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="locale">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activity.MainActivity"
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="locale"
+            ></activity>
+        <activity android:name=".Activity.LoginActivity"
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="locale"></activity>
+
+        <activity android:name="com.facebook.FacebookActivity"
+            android:screenOrientation="sensorPortrait"
+            android:configChanges="locale"></activity>
+        <activity android:name=".Activity.BasicMapDemoActivity"
+            android:screenOrientation="sensorPortrait">
+
+        </activity>
+
+        <activity android:name=".Activity.CommentActivity"
+            android:screenOrientation="sensorPortrait">
+
+        </activity>
+        <activity android:name=".Activity.TestActivity"
+            android:screenOrientation="sensorPortrait">
+
+
+        </activity>
+        <activity android:name=".Activity.IntroActivity"
+            android:screenOrientation="sensorPortrait">
+
+
+        </activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="com.denada.travpholer" />
+            </intent-filter>
+        </receiver>
+        <service android:name=".GcmIntentService" />
+
+
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_map_key" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="edd6edceb9eb432066b753dd53aef7b0ec1e640d" />
+    </application>
+
+</manifest>
